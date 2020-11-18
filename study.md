@@ -23,4 +23,9 @@
         System.out.println("40=i5+i6   " + (40 == i5 + i6));
     }
 ````
+- int类型比较，相等；
+- 两个Integer比较， 在[-128, 127]内相等，否则不相等，因为会重新new一个对象；
+- 清楚自动装箱（Integer a0 = 128）和自动拆箱（int a = Integer.valueOf(128)）；
+
+
 
